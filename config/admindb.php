@@ -1,5 +1,5 @@
 <?php
-class Db{
+class adminDb{
     private $host = "localhost";
     private $user = "root";
     private $pass = "";
@@ -11,8 +11,6 @@ class Db{
                                  dbname={$this->dbName}",
                                  $this->user,
                                  $this->pass);
-            $this->db->setAttribute(PDO::ATTR_ERRMODE,
-                                    PDO::ERRMODE_EXCEPTION);
         }
         catch(PDOexception $exception){
                 echo("Error at Connecting to Database, err code : ".$exception->getMessage());
@@ -22,5 +20,5 @@ class Db{
     }
 }
 
-$connect = new Db();
+$connect = new adminDb();
 ?>

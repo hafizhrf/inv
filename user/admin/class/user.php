@@ -1,13 +1,13 @@
 <?php
-class Kategori{
+class User {
     public $connect;
     public function __construct(){
-        require_once("../../../config/admindb.php");
-        $this->connect = new adminDb();
+        require_once("../../../config/db.php");
+        $this->connect = new Db();
     }
-    public function addKat($data){
+    public function addUs($data){
         try{
-            $sql = "INSERT INTO kategori(id,description) VALUES(?,?)";
+            $sql = "INSERT INTO user (id,description) VALUES(?,?)";
             $ins = $this->connect->db->prepare($sql);
             $ins->bindparam(1, $data[0]);
             $ins->bindparam(2, $data[1]);
@@ -18,9 +18,9 @@ class Kategori{
             return "Failed to insert";
         }
     }
-    public function editKat($id){
+    public function editUs($id){
         try{
-            $sql = "SELECT * FROM kategori WHERE id=?";
+            $sql = "SELECT * FROM user  WHERE id=?";
             $get = $this->connect->db->prepare($sql);
             $get->bindparam(1, $id);
             $get->execute();
@@ -30,9 +30,9 @@ class Kategori{
             return false;
         }
     }
-    public function updateKat($data){
+    public function updateUs($data){
         try{
-            $sql = "UPDATE kategori SET description = ? WHERE id = ?";
+            $sql = "UPDATE user  SET description = ? WHERE id = ?";
             $upd = $this->connect->db->prepare($sql);
             $upd->bindparam(1, $data[1]);
             $upd->bindparam(2, $data[0]);
@@ -44,9 +44,9 @@ class Kategori{
         }
     }   
     
-    public function readKat(){
+    public function readUs(){
         try{
-            $sql = "SELECT * FROM kategori";
+            $sql = "SELECT * FROM user ";
             $upd = $this->connect->db->prepare($sql);
             $upd->execute();
             return $upd;
@@ -56,9 +56,9 @@ class Kategori{
         }
     }
 
-    public function deleteKat($id){
+    public function deleteUs($id){
         try{
-            $sql = "DELETE FROM kategori WHERE id = ?";
+            $sql = "DELETE FROM user  WHERE id = ?";
             $del = $this->connect->db->prepare($sql);
             $del->bindparam(1, $id);
             $del->execute();
