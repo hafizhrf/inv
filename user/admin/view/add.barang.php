@@ -1,9 +1,3 @@
-<?php
-if(!isset($_POST['proses'])){
-    echo "<script>url:location='../../../view/notfound.html';</script>";
-}
-else{
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,6 +56,3 @@ else{
     </table>
 </body>
 </html>
-<?php
-}
-?>
