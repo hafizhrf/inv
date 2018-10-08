@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(empty($_SESSION['user_id']))
+    {
+        header("Location: ../../../view/login.php");
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +15,8 @@
     <link rel="stylesheet" href="../../../asset/css/bootstrap.min.css">
 </head>
 <body>
-    <form action="../proses/barang.php" method="POST">
+<script src="../../../asset/js/bootstrap.min.js"></script>
+    <form action="../proses/barang.php?proses=Add" method="POST">
     <table>
         <tr>
             <td>Id</td>

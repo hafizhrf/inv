@@ -1,6 +1,8 @@
 <?php
-if(!isset($_POST['proses'])){
-    echo "<script>url:location='../../../view/notfound.html';</script>";
+session_start();
+if(empty($_SESSION['user_id']))
+{
+    header("Location: ../../../view/login.php");
 }
 else{
     require('../class/barang.php');
@@ -14,7 +16,7 @@ else{
     );
     $id = @$_REQUEST['id'];
 
-    if($_POST['proses'] == "Add"){
+    if($_GET['proses'] == "Add"){
         $proc = $lib->addBar($data);
         if($proc == true){
             echo "<script>url:location='../view/index.barang.php';</script>";
@@ -24,7 +26,7 @@ else{
             echo "<script>url:location='../view/add.barang.php';</script>";
         }
     }
-    elseif($_POST['proses'] == "Update"){
+    elseif($_GET['proses'] == "Update"){
         $proc = $lib->updateBar($data);
         if($proc == true){
             echo "<script>url:location='../view/index.barang.php';</script>";
@@ -34,7 +36,7 @@ else{
             echo "<script>url:location='../view/edit.barang.php';</script>";
         }
     }
-    elseif($_POST['proses'] == "Delete"){
+    elseif($_GET['proses'] == "Delete"){
         $proc = $lib->deleteBar($id);
         if($proc == true){
             echo "<script>url:location='../view/index.barang.php';</script>";

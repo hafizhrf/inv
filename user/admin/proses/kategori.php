@@ -1,7 +1,9 @@
-<?php
-if(!isset($_POST['proses'])){
-    echo "<script>url:location='../../../view/notfound.html';</script>";
-}
+<<?php
+    session_start();
+    if(empty($_SESSION['user_id']))
+    {
+        header("Location: ../../../view/login.php");
+    }
 else{
     require('../class/kategori.php');
     $lib = new Kategori();
@@ -11,7 +13,7 @@ else{
     );
     $id = @$_REQUEST['id'];
 
-    if($_POST['proses'] == "Add"){
+    if($_GET['proses'] == "Add"){
         $proc = $lib->addKat($data);
         if($proc == true){
             echo "<script>url:location='../view/index.kategori.php';</script>";
@@ -21,7 +23,7 @@ else{
             echo "<script>url:location='../view/add.kategori.php';</script>";
         }
     }
-    elseif($_POST['proses'] == "Update"){
+    elseif($_GET['proses'] == "Update"){
         $proc = $lib->updateKat($data);
         if($proc == true){
             echo "<script>url:location='../view/index.kategori.php';</script>";
@@ -31,7 +33,7 @@ else{
             echo "<script>url:location='../view/edit.kategori.php';</script>";
         }
     }
-    elseif($_POST['proses'] == "Delete"){
+    elseif($_GET['proses'] == "Delete"){
         $proc = $lib->deleteKat($id);
         if($proc == true){
             echo "<script>url:location='../view/index.kategori.php';</script>";

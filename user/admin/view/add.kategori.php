@@ -1,8 +1,9 @@
 <?php
-if(!isset($_POST['proses'])){
-    echo "<script>url:location='../../../view/notfound.html';</script>";
-}
-else{
+    session_start();
+    if(empty($_SESSION['user_id']))
+    {
+        header("Location: ../../../view/login.php");
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,7 +14,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <form action="../proses/kategori.php" method="POST">
+    <form action="../proses/kategori.php?proses=Add" method="POST">
     <table>
         <tr>
             <td>Id</td>
@@ -30,6 +31,3 @@ else{
     </table>
 </body>
 </html>
-<?php
-}
-?>
