@@ -11,15 +11,36 @@ body{
 .div-home-dashboard{
     background-image: url("../img/bg/bg-home.jpg");
     height: 100vh;
-    background-position: center center !important
+    width: 100%;
+    background-position: center center !important;
+    position: fixed;
+    z-index: 1;
 }
 
-.div-home-dashboard{
-<<<<<<< HEAD
-    background-color: 
-=======
-    background-image: 12x
->>>>>>> update dashboard
+.div-home-dashboard-two{
+    background: rgba(.10, .10, .10, .25);
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+}
+
+.button-navbar-dashboard{
+    background: white;
+    border: none;
+    color: rgb(241, 141, 10);
+    border-radius: 30px;
+    padding: 10px 30px;
+    outline: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 28px;
+    font-size: 14px;
+}
+
+.button-navbar-dashboard:hover{
+    background: #fcfbfb;
 }
 
 .nav-dashboard{
@@ -28,6 +49,8 @@ body{
     background-color: rgba( 0.10, 0.10, 0.10, 0.21);
     padding: 2px 5px;
     color: white;
+    display: flex;
+    position: relative;
 }
 
 #logo{

@@ -21,6 +21,9 @@
         <img src="../asset/img/ic/ic-inv-x64.png" id="imglogo">
         <h1 class="textlogo"><i>INV</i></h1>
         </div>
+        <a href="./register.php">
+            <button class="button-navbar-dashboard">Daftar</button>
+        </a>
     </div>
     </div>
 </body>
