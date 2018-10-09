@@ -1,0 +1,47 @@
+
+/* global */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* dashboard */
+
+.div-home-dashboard{
+    background-image: url("../img/bg/bg-home.jpg");
+    height: 100vh;
+    background-position: center center !important
+}
+
+.div-home-dashboard{
+<<<<<<< HEAD
+    background-color: 
+=======
+    background-image: 12x
+>>>>>>> update dashboard
+}
+
+.nav-dashboard{
+    width: 1920;
+    height: 10vh;
+    background-color: rgba( 0.10, 0.10, 0.10, 0.21);
+    padding: 2px 5px;
+    color: white;
+}
+
+#logo{
+    display: flex;
+    font-family: 'Segoe UI';
+}
+
+#imglogo{
+    width: 70px;
+    height: 70px;
+}
+
+.textlogo{
+    font-size: 40px;
+    position: relative;
+    top: -22px;
+}
