@@ -4,6 +4,7 @@
     {
         header("Location: ../../../view/login.php");
     }
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,8 +49,8 @@
             <td><?php echo $Bar['kondisi']; ?></td>
             <td><?php echo $Bar['kategori']; ?></td>
             <td>
-            <a href="?id=<?php echo $Bar['id'] ?>" data-toggle="modal" data-target="#EditBarang"><button type="button"<?php $id = $Bar['id'];?> class="btn btn-primary" data-toggle="modal" data-target="#EditBarang">
-            Edit</button></a> |
+           <button class="btn btn-primary"  data-toggle="modal" data-target="#EditBarang">
+            Edit<?php $id = ""; $id = $Bar['id']; echo $id;?></button> <span style="font-family: 'Segoe UI Symbol'; color: #000;">•</span>
             <a href="../proses/barang.php?id=<?php echo $Bar['id'] ?>&&proses=Delete" ><button  class="btn btn-primary">
             Hapus</button></a> 
             </td>
@@ -57,6 +58,7 @@
             <?php 
             }
             ?>
+            
     </table>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AddBarang">
 Add
@@ -69,6 +71,7 @@ Add
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Add Barang</h5>
       </div>
+      
       <div class="modal-body">
       <form action="../proses/barang.php?proses=Add" method="POST">
     <table>
@@ -128,8 +131,9 @@ Add
     </div>
   </div>
 </div>
+<!-- Modal Edit -->
 
-<div class="modal fade" id="EditBarang" tabindex="-1" role="dialog" aria-labelledby="AddBarangTitle" aria-hidden="true">
+<div class="modal fade" id="EditBarang" tabindex="-1" role="dialog" aria-labelledby="EditBarangTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -138,7 +142,7 @@ Add
       <div class="modal-body">
       <form action="../proses/barang.php?proses=Update" method="POST">
     <table>
-    <?php
+    <?php   echo $id;
             $edit = $lib->editBar($id);
             foreach($edit as $Bar){
         ?>

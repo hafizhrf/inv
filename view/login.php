@@ -58,12 +58,27 @@
     <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
 </head>
 <body>
- 
+    <style>
+        body{
+            background-color: #007bff;
+        }
+        .card{
+            margin: 0 auto;
+            top: 10em;
+            border: 1px solid #ebebeb;
+            box-shadow: 8px 8px 20px 1px #24486e;
+        }
+        h4 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    </style>
 <div class="container">
-    <div class="card col-md-5 well">
-    <div class="row">
+    <div class="card col-md-5">
         
-        <div class="col-md-5 well">
+        <div class="form-group c">
             <h4>Login</h4>
             <?php
         if ($login_error_message != "") {
@@ -84,7 +99,6 @@
                 </div>
             </form>
         </div>
-    </div>
     </div>
 </div>
 </body>
