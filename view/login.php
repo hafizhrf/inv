@@ -5,11 +5,8 @@
         if($_SESSION['level'] == 'admin'){
             header("Location: indexadmin.php");
         }
-        elseif($_SESSION['level'] == 'pegawai'){
-            header("Location: indexpegawai.php");
-        }
-        else{
-            header("Location: indexpeminjam.php");
+        elseif($_SESSION['level'] == 'petugas'){
+            header("Location: indexpetugas.php");
         }
     }
     $login_error_message = "";
@@ -35,11 +32,8 @@
                 if($user->level == 'admin'){
                     header("Location: indexadmin.php");
                 }
-                elseif($user->level == 'pegawai'){
-                    header("Location: indexpegawai.php");
-                }
-                else{
-                    header("Location: indexpeminjam.php");
+                elseif($user->level == 'petugas'){
+                    header("Location: indexpetugas.php");
                 }
             }
             else
@@ -56,17 +50,18 @@
     <title>Home</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="icon" href="../asset/img/logo/inv.png">
 </head>
 <body>
     <style>
         body{
-            background-color: #007bff;
+            background-color: #ebebeb;
         }
         .card{
             margin: 0 auto;
             top: 10em;
             border: 1px solid #ebebeb;
-            box-shadow: 8px 8px 20px 1px #24486e;
+            box-shadow: 8px 8px 20px 1px grey;
         }
         h4 {
             margin-top: 20px;

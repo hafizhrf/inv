@@ -17,13 +17,20 @@ else{
     $id = @$_REQUEST['id'];
 
     if($_GET['proses'] == "Add"){
-        $proc = $lib->addBar($data);
-        if($proc == true){
+        $check = $lib->cek($id);
+        if($check == false){
+            echo "<script>alert('Id Barang Sudah Terdaftar');</script>";
             echo "<script>url:location='../view/index.barang.php';</script>";
         }
         else{
-            echo "<script>alert('Failed');</script>";
-            echo "<script>url:location='../view/add.barang.php';</script>";
+            $proc = $lib->addBar($data);
+            if($proc == true){
+                echo "<script>url:location='../view/index.barang.php';</script>";
+            }
+            else{
+                echo "<script>alert('Failed');</script>";
+                echo "<script>url:location='../view/add.barang.php';</script>";
+            }
         }
     }
     elseif($_GET['proses'] == "Update"){

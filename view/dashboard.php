@@ -7,6 +7,7 @@
     <title>InV</title>
 
     <!-- include framework css -->
+    <link rel="stylesheet" href="../asset/aos-master/dist/aos.css">
     <link href="../asset/css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 
     <!-- include icon tab browser -->
@@ -14,17 +15,26 @@
     
 </head>
 <body>
-    <div class="div-home-dashboard-two">
-    <div class="div-home-dashboard">
     <div class="nav-dashboard">
         <div id="logo">
         <img src="../asset/img/ic/ic-inv-x64.png" id="imglogo">
-        <h1 class="textlogo"><i>INV</i></h1>
-        </div>
-        <a href="./register.php">
-            <button class="button-navbar-dashboard">Daftar</button>
-        </a>
     </div>
     </div>
+    <div class="div-home-dashboard">
+    <div class="dg-one">
+    <div class="dg-one-left">
+    <h2>INV</h2>
+    <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
+    </div>
+    <div class="dg-one-right" data-aos="fade-down-left">
+        <img src="../asset/img/box.png">
+    </div>
+    </div>
+    <div class="dg-two-bg">
+    </div>
+    <script src="../asset/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

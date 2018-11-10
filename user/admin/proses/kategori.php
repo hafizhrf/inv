@@ -14,13 +14,20 @@ else{
     $id = @$_REQUEST['id'];
 
     if($_GET['proses'] == "Add"){
-        $proc = $lib->addKat($data);
-        if($proc == true){
+        $check = $lib->cek($id);
+        if($check == false){
+            echo "<script>alert('Id Kategori Sudah Terdaftar');</script>";
             echo "<script>url:location='../view/index.kategori.php';</script>";
         }
         else{
-            echo "<script>alert('Failed');</script>";
-            echo "<script>url:location='../view/add.kategori.php';</script>";
+            $proc = $lib->addKat($data);
+            if($proc == true){
+                echo "<script>url:location='../view/index.kategori.php';</script>";
+            }
+            else{
+                echo "<script>alert('Failed');</script>";
+                echo "<script>url:location='../view/add.kategori.php';</script>";
+            }
         }
     }
     elseif($_GET['proses'] == "Update"){
@@ -31,16 +38,6 @@ else{
         else{
             echo "<script>alert('Failed');</script>";
             echo "<script>url:location='../view/edit.kategori.php';</script>";
-        }
-    }
-    elseif($_GET['proses'] == "Delete"){
-        $proc = $lib->deleteKat($id);
-        if($proc == true){
-            echo "<script>url:location='../view/index.kategori.php';</script>";
-        }
-        else{
-            echo "<script>alert('Failed');</script>";
-            echo "<script>url:location='../view/index.kategori.php';</script>";
         }
     }
 }

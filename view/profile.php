@@ -16,10 +16,6 @@ if(empty($_SESSION['user_id']))
  
  
 // Application library ( with DemoLib class )
-require('loginClass.php');
-$lib = new Validation();
-$app = $lib->getUser($_SESSION['user_id']);
- 
 ?>
 <!doctype html>
 <html lang="en">
@@ -35,7 +31,7 @@ $app = $lib->getUser($_SESSION['user_id']);
             <h2>
                 Profile
             </h2>
-            <h3>Hello <?php echo $app->nama ?>,</h3>
+            <h3>Hello <?php echo $_SESSION['level'] ?>,</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt dolore fuga labore magni maxime, quaerat reiciendis tenetur? Accusantium blanditiis doloribus earum error inventore laudantium nesciunt quis reprehenderit ullam vel?
             </p>

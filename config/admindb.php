@@ -12,7 +12,6 @@ class adminDb{
                                  $this->user,
                                  $this->pass);
         }
-
         catch(PDOexception $exception){
                 echo("Error at Connecting to Database, err code : ".$exception->getMessage());
                 die();

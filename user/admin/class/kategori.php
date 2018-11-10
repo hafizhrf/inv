@@ -18,6 +18,25 @@ class Kategori{
             return "Failed to insert";
         }
     }
+
+    public function cek($id){
+        try{
+            $sql = "SELECT * FROM kategori WHERE id=?";
+            $arg = $this->connect->db->prepare($sql);
+            $arg->bindparam(1, $id);
+            $arg->execute();
+            if($arg->rowCount() > 0){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+        catch(PDOexception $e){
+            return false;
+        }
+    }
+
     public function editKat($id){
         try{
             $sql = "SELECT * FROM kategori WHERE id=?";

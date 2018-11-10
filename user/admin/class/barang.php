@@ -62,6 +62,42 @@ class barang{
         }
     }
 
+    public function cek($id){
+        try{
+            $sql = "SELECT * FROM barang WHERE id=?";
+            $arg = $this->connect->db->prepare($sql);
+            $arg->bindparam(1, $id);
+            $arg->execute();
+            if($arg->rowCount() > 0){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+        catch(PDOexception $e){
+            return false;
+        }
+    }
+    
+    public function readFaktur(){
+        try{
+            $sql = "SELECT no_fp FROM pembelian ORDER BY no_fp DESC LIMIT 1";
+            $ins = $this->connect->db->prepare($sql);
+            $ins->execute();
+            if($ins->rowCount() > 0){
+                $data = $ins->fetch(PDO::FETCH_OBJ);
+                return $data->no_fp;
+            }
+            else{
+                return "0";
+            }
+        }
+        catch(PDOexception $e){
+            return "Failed to insert";
+        }
+    }
+    
     public function deleteBar($id){
         try{
             $sql = "DELETE FROM barang WHERE id = ?";
