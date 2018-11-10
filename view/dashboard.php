@@ -7,6 +7,7 @@
     <title>InV</title>
 
     <!-- include framework css -->
+    <link rel="stylesheet" href="../asset/css/material-dashboard.css?v=2.0.2">
     <link rel="stylesheet" href="../asset/aos-master/dist/aos.css">
     <link href="../asset/css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 
@@ -20,19 +21,22 @@
         <img src="../asset/img/ic/ic-inv-x64.png" id="imglogo">
     </div>
     </div>
-    <div class="div-home-dashboard">
+    <div class="div-home-dashboard" data-aos="fade-up">
     <div class="dg-one">
     <div class="dg-one-left">
     <h2>INV</h2>
     <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
     </div>
-    <div class="dg-one-right" data-aos="fade-down-left">
+    <div class="dg-one-right" data-aos="fade-left">
         <img src="../asset/img/box.png">
     </div>
     </div>
     <div class="dg-two-bg">
     </div>
     <script src="../asset/aos-master/dist/aos.js"></script>
+    <script src="../asset/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="../asset/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../asset/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
     <script>
         AOS.init();
     </script>
