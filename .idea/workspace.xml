@@ -1,354 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e778e714-75b8-4296-b07f-78b19411305e" name="Default Changelist" comment="baru">
+    <list default="true" id="e778e714-75b8-4296-b07f-78b19411305e" name="Default Changelist" comment="asdasda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/aos-master/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/asset/aos-master/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/bootstrap-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/bootstrap-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.foundation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.semanticui.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.semanticui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/dataTables.semanticui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/jquery.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/jquery.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/jquery.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/material-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/material-dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/material-dashboard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/material-dashboard.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/material-dashboard.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/material-dashboard.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/select2.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/demo/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/demo/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/demo/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/inv.sql" beforeDir="false" afterPath="$PROJECT_DIR$/asset/inv.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/bootstrap-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/bootstrap-select.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/core/bootstrap-material-design.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/core/bootstrap-material-design.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/core/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/core/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/core/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/core/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.jqueryui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.semanticui.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.semanticui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/dataTables.semanticui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/az.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/bs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ar_AR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ar_AR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ar_AR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ar_AR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-bg_BG.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-bg_BG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-bg_BG.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-bg_BG.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-cs_CZ.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-cs_CZ.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-cs_CZ.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-cs_CZ.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-da_DK.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-da_DK.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-da_DK.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-da_DK.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-de_DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-de_DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-de_DE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-de_DE.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-en_US.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-en_US.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-en_US.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-en_US.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-es_CL.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-es_CL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-es_CL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-es_CL.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-es_ES.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-es_ES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-es_ES.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-es_ES.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-et_EE.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-et_EE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-et_EE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-et_EE.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-eu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-eu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fa_IR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fa_IR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fa_IR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fa_IR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fi_FI.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fi_FI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fi_FI.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fi_FI.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fr_FR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fr_FR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-fr_FR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-fr_FR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-hr_HR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-hr_HR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-hr_HR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-hr_HR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-hu_HU.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-hu_HU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-hu_HU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-hu_HU.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-id_ID.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-id_ID.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-id_ID.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-id_ID.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-it_IT.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-it_IT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-it_IT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-it_IT.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ja_JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ja_JP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ja_JP.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ja_JP.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-kh_KM.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-kh_KM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-kh_KM.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-kh_KM.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ko_KR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ko_KR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ko_KR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ko_KR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-lt_LT.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-lt_LT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-lt_LT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-lt_LT.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-nb_NO.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-nb_NO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-nb_NO.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-nb_NO.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-nl_NL.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-nl_NL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-nl_NL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-nl_NL.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pl_PL.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pl_PL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pl_PL.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pl_PL.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_BR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_BR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_PT.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_PT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_PT.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-pt_PT.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ro_RO.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ro_RO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ro_RO.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ro_RO.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ru_RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ru_RU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ru_RU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ru_RU.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sk_SK.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sk_SK.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sk_SK.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sk_SK.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sl_SI.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sl_SI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sl_SI.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sl_SI.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sv_SE.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sv_SE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-sv_SE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-sv_SE.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-tr_TR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-tr_TR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-tr_TR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-tr_TR.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ua_UA.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ua_UA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-ua_UA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-ua_UA.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-vi_VN.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-vi_VN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-vi_VN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-vi_VN.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_CN.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_TW.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/defaults-zh_TW.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/dsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/dsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/hsb.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/hsb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/hy.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/hy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/mk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ps.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/sr-Cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/sr-Cyrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/tk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/i18n/zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/i18n/zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/material-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/material-dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/material-dashboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/material-dashboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/plugins/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/plugins/bootstrap-notify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/plugins/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/plugins/chartist.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/plugins/perfect-scrollbar.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/js/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/select2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_checkboxes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_checkboxes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_core-bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_core-bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_example-pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_example-pages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_fixed-plugin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_fixed-plugin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_footers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_headers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_headers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_popups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_popups.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_radios.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_radios.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_ripples.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_ripples.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_social-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_social-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_togglebutton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_togglebutton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_navbar-align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_navbar-align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-plain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-plain.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-stats.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/cards/_card-stats.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_colored-shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_colored-shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_drawer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_drawer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_hover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_navbar-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_navbar-colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_navs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_sidebar-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_sidebar-color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_transparency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_transparency.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_animate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_animate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_perfect-scrollbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/plugins/_perfect-scrollbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_bootstrap-material-design-base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_bootstrap-material-design-base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_bootstrap-material-design.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_bootstrap-material-design.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_brand.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_colors-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_colors-map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_drawer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_drawer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_snackbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_snackbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_state.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_state.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/asset/scss/material-dashboard/variables/_type.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/dashboard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -378,37 +33,25 @@
     <session id="-2065472286">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="php" value="1" />
+          <entry key="css" value="7" />
+          <entry key="php" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="PHP" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.compare" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="php" value="61" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PHP" value="61" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="CSS" value="7" />
+          <entry key="PHP" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
@@ -417,38 +60,39 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="674" />
+          <entry key="PHP" value="158" />
+          <entry key="PLAIN_TEXT" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="674" />
+          <entry key="php" value="158" />
+          <entry key="txt" value="27" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Alvin" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/asset/css/style.css" />
         <option value="$PROJECT_DIR$/view/dashboard.php" />
+        <option value="$PROJECT_DIR$/asset/css/style.css" />
       </list>
     </option>
   </component>
@@ -494,12 +138,14 @@
               <item name="inv" type="b2602c69:ProjectViewProjectNode" />
               <item name="inv" type="462c0819:PsiDirectoryNode" />
               <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inv" type="b2602c69:ProjectViewProjectNode" />
               <item name="inv" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="Font" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductSans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -512,6 +158,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -536,7 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541852653778</updated>
       <workItem from="1541852662331" duration="746000" />
-      <workItem from="1541868879706" duration="3426000" />
+      <workItem from="1541854192973" duration="75000" />
+      <workItem from="1541854337747" duration="261000" />
+      <workItem from="1541854655357" duration="56000" />
+      <workItem from="1541854761640" duration="49000" />
+      <workItem from="1541854919090" duration="94000" />
+      <workItem from="1541855078337" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="asdasd">
       <created>1541852765109</created>
@@ -545,15 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1541852765109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update stlye.css">
+      <created>1541949830485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541949830485</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update stlye.css">
+      <created>1541951651495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541951651495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4172000" />
+    <option name="totallyTimeSpent" value="7339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16601562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -567,9 +232,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32896653" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.26491994" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.26355422" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,37 +245,35 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asdasd" />
-    <MESSAGE value="new" />
-    <MESSAGE value="baru" />
-    <option name="LAST_COMMIT_MESSAGE" value="baru" />
+    <MESSAGE value="update stlye.css" />
+    <MESSAGE value="asdasda" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdasda" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/asset/css/style.css">
+    <entry file="file://$PROJECT_DIR$/view/register.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/petugas/view/index.barang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
+        <state relative-caret-position="-414" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="301">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
         </state>
       </provider>
     </entry>
