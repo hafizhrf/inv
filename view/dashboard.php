@@ -12,7 +12,7 @@
 
     <!-- include icon tab browser -->
     <link rel="icon" href="../asset/img/ic/ic-inv-x72.png">
-    
+
 </head>
 <body>
     <div class="nav-dashboard">
@@ -20,13 +20,13 @@
         <img src="../asset/img/ic/ic-inv-x64.png" id="imglogo">
     </div>
     </div>
-    <div class="div-home-dashboard">
+    <div class="div-home-dashboard" data-aos="fade-up">
     <div class="dg-one">
     <div class="dg-one-left">
     <h2>INV</h2>
     <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
     </div>
-    <div class="dg-one-right" data-aos="fade-down-left">
+    <div class="dg-one-right" data-aos="fade-up">
         <img src="../asset/img/box.png">
     </div>
     </div>
