@@ -1,3 +1,8 @@
+<?php
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,20 +21,43 @@
 
 </head>
 <body>
-    <div class="nav-dashboard">
-        <div id="logo">
-        <img src="../asset/img/ic/ic-inv-x64.png" id="imglogo">
+<nav class="navbar fixed-top navbar-expand-lg bg-white">
+    <img id="imglogo" src="../asset/img/ic/ic-inv-x64.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-bar navbar-kebab"></span>
+        <span class="navbar-toggler-bar navbar-kebab"></span>
+        <span class="navbar-toggler-bar navbar-kebab"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#dgOne">Beranda<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Fitur</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tentang</a>
+            </li>
+            <li class="nav-item">
+                <p></p>
+            </li>
+        </ul>
     </div>
-    </div>
-    <div class="div-home-dashboard">
-    <div class="dg-one">
-    <div class="dg-one-left">
-    <h2>INV</h2>
-    <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
-    </div>
-    <div class="dg-one-right">
-        <img src="../asset/img/box.png">
-    </div>
+</nav>
+<div class="div-home-dashboard">
+    <div class="dg-one" id="dgOne">
+        <div class="dg-one-left">
+            <h2>INV</h2>
+            <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
+        </div>
+        <div class="dg-one-right">
+            <img src="../asset/img/box.png">
+        </div>
+        <div class="dg-one-middle">
+            <button class="dg-button-login"><a href="login.php">Login</a></button>
+        </div>
     </div>
     <div class="dg-two-bg">
         <div>
