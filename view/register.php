@@ -15,19 +15,22 @@ if (isset($_POST["proses"])) {
 <head>
     <title></title>
     <link rel="stylesheet" href="../asset/css/material-dashboard.css?v=2.0.2">
+    <link rel="stylesheet" href="asset/aos-master/dist/aos.css">
     <link href="../asset/css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 </head>
 <body>
 <style>
-    body{
+    body {
         background-color: #ebebeb;
     }
-    .card{
+
+    .card {
         margin: 0 auto;
         top: 10em;
         border: 1px solid #ebebeb;
         box-shadow: 8px 8px 20px 1px grey;
     }
+
     h4 {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -58,7 +61,7 @@ if (isset($_POST["proses"])) {
     </div>
 </nav>
 <div class="container">
-    <div class="card col-md-5">
+    <div class="card col-md-5" data-aos="fade-up">
         <div class="form-group c">
             <h1>Register</h1>
             <form action="register.php" method="POST">
@@ -82,11 +85,16 @@ if (isset($_POST["proses"])) {
                     </select>
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="reg" class="btn btn-warning" value="Login"/>
+                    <input type="submit" name="reg" class="btn btn-warning" style="position: relative; float: right;"
+                           value="Register"/>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<script src="asset/aos-master/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

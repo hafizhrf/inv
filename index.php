@@ -48,14 +48,18 @@ session_start();
 </nav>
 <div class="div-home-dashboard">
     <div class="dg-one" id="dgOne">
-        <div class="dg-one-left">
+        <div class="dg-one-left" data-aos="fade-up"
+             data-aos-duration="200">
             <h2>INV</h2>
             <p><i>Aplikasi <span><b>Peminjaman</b></span> - <span><b>Pengembalian</b></span> Barang</i></p>
         </div>
-        <div class="dg-one-right">
+        <div class="dg-one-right" data-aos="fade-left"
+             data-aos-anchor="#example-anchor"
+             data-aos-offset="500"
+             data-aos-duration="200">
             <img src="asset/img/box.png">
         </div>
-        <div class="dg-one-middle">
+        <div class="dg-one-middle" data-aos="fade-up" data-aos-duration="200">
             <?php
 
             if(empty($_SESSION['user_id'])){
@@ -81,7 +85,17 @@ session_start();
     <script src="asset/js/core/popper.min.js" type="text/javascript"></script>
     <script src="asset/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
     <script>
-        AOS.init();
+        AOS.init()
+
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */ );
+        });
     </script>
 </body>
 </html>
