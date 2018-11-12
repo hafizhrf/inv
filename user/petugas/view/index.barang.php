@@ -35,9 +35,6 @@ if(!empty($_GET['qty']) || !empty($_GET['id'])){
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../../../asset/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
     <script src="../../../asset/js/select2.min.js"></script>
-    
-    
-    
     <title>Barang</title>
 </head>
 <body>
@@ -126,7 +123,7 @@ if(!empty($_GET['qty']) || !empty($_GET['id'])){
 <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="nav-item  ">
-        <a class="nav-link" href="../../../view/index.admin.php">
+        <a class="nav-link" href="index.php">
           <p>Home</p>
       </a>
   </li>
@@ -155,32 +152,11 @@ if(!empty($_GET['qty']) || !empty($_GET['id'])){
 </div>
 </div>
 <div class="main-panel">
-   <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-            <span class="navbar-toggler-icon icon-bar"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-
-              </li>
-              <!-- your navbar here -->
-          </ul>
-      </div>
-  </div>
-</nav>
-<!-- End Navbar -->
 <div class="content">
     <div class="container-fluid">
         <h1>List Barang</h1>
         <button class="btn btn-warning"  id="bukabel">Tambah Barang</button>
         <div class="card card-nav-tabs">
-           
         <div class="beli">
             <form action="../proses/barang.php?proses=Add" method="POST">
                 <div class="form-group">

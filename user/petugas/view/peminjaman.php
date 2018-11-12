@@ -109,7 +109,7 @@ $data = $lib->readPinjam();
   <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="nav-item  ">
-        <a class="nav-link" href="../../../view/index.admin.php">
+        <a class="nav-link" href="index.php">
           <p>Home</p>
       </a>
   </li>

@@ -32,19 +32,7 @@ if(!empty($_GET['qty']) || !empty($_GET['key']) || !empty($_GET['idcart'])){
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../../../asset/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
     <script src="../../../asset/js/select2.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Admin Page</title>
 </head>
 <body>
     <style>
@@ -126,7 +114,7 @@ if(!empty($_GET['qty']) || !empty($_GET['key']) || !empty($_GET['idcart'])){
   <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="nav-item  ">
-        <a class="nav-link" href="../../../view/index.admin.php">
+        <a class="nav-link" href="index.php">
           <p>Home</p>
       </a>
   </li>

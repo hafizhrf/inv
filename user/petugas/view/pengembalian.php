@@ -12,17 +12,20 @@ $data = $lib->readPeng();
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="../../../asset/img/logo/inv.png">
-  <link href="../../../asset/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
-  <link rel="stylesheet" href="../../../asset/css/jquery.dataTables.css"> 
-  <link rel="stylesheet" href="../../../asset/css/dataTables.bootstrap.css"> 
-  <script src="../../../asset/js/jquery.min.js"></script>
-  <script src="../../../asset/js/jquery.dataTables.js"></script>
-  <script src="../../../asset/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="../../../asset/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <script src="../../../asset/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../../../asset/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../../../asset/img/logo/inv.png">
+    <link rel="stylesheet" href="../../../asset//css/select2.min.css">
+    <link href="../../../asset/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
+    <link rel="stylesheet" href="../../../asset/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="../../../asset/css/dataTables.bootstrap.css">
+    <script src="../../../asset/js/jquery.min.js"></script>
+    <script src="../../../asset/js/jquery.dataTables.js"></script>
+    <script src="../../../asset/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../../../asset/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="../../../asset/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../../../asset/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+    <script src="../../../asset/js/select2.min.js"></script>
 
 
 
@@ -106,7 +109,7 @@ $data = $lib->readPeng();
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item  ">
-            <a class="nav-link" href="../../../view/index.admin.php">
+            <a class="nav-link" href="index.php">
               <p>Home</p>
             </a>
           </li>
