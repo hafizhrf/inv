@@ -1,10 +1,8 @@
-#Projek Inv
+INV
 
 --Dimohon untuk tidak menyalahgunakan aplikas ini--
 
 
-
-                                        
                                         tertanda
                                     
                                     
