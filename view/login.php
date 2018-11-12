@@ -115,7 +115,6 @@
                 <div class="form-group">
                     <input type="submit" name="Login" class="btn btn-warning" value="Login"/>
                 </div>
-                <span>Daftarkan Member<a href=""></a></span>
             </form>
         </div>
     </div>

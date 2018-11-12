@@ -56,18 +56,14 @@ session_start();
             <img src="asset/img/box.png">
         </div>
         <div class="dg-one-middle">
-            <button class="dg-button-login"><a href="view/login.php">Login</a></button>
             <?php
-            if(!empty($_SESSION['user_id']))
-            {
-                if($_SESSION['level'] == 'admin'){
-                    echo '<button class="dg-button-login"><a href="view/login.php">Login</a></button>';
-                }
-                elseif($_SESSION['level'] == 'petugas'){
-                    echo '<button class="dg-button-login"><a href="view/logout.php">Logout</a></button>';
-                }
+
+            if(empty($_SESSION['user_id'])){
+                echo '<button class="dg-button-login"><a href="view/login.php">Login</a></button>';
             }
-            $login_error_message = "";
+            else{
+                echo '<button class="dg-button-login"><a href="view/logout.php">Logout</a></button>';
+            }
 
             ?>
         </div>
