@@ -7,5 +7,5 @@ unset($_SESSION['level']);
 unset($_SESSION['daftar']);
 
 // Redirect to index.php page
-header("Location: login.php");
+header("Location: ../index.php");
 ?>
