@@ -113,7 +113,9 @@
                     <input type="password" name="password" class="form-control"/>
                 </div>
                 <div class="form-group">
-                    <center><input type="submit" name="Login" class="btn btn-primary" value="Login"/></center>
+                    <center>
+                        <input type="submit" name="Login" class="btn btn-primary" value="Login"/>
+                    </center>
                 </div>
             </form>
         </div>
