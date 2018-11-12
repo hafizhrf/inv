@@ -17,7 +17,7 @@ session_start();
     <link href="asset/css/style.css?v=<?php echo time(); ?>" rel="stylesheet">
 
     <!-- include icon tab browser -->
-    <link rel="icon" href="asset/img/ic/ic-inv-x72.png">
+    <link rel="icon" href="asset/img/logo/inv.png">
 
 </head>
 <body>
@@ -40,8 +40,24 @@ session_start();
             <li class="nav-item">
                 <a class="nav-link" href="#">Tentang</a>
             </li>
-            <li class="nav-item">
-                <p></p>
+            <li class="nav-item dropdown">
+                <?php
+
+                if (empty($_SESSION['user_id'])) {
+                    echo $btn;
+                } else {
+                    echo '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">';
+                    echo $_SESSION['level'];
+                    echo '</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Profil</a>
+                    <a class="dropdown-item" href="#">Pengaturan</a>
+                    <a class="dropdown-item" href="view/logout.php">Log Out</a>
+                </div>';
+                }
+
+                ?>
             </li>
         </ul>
     </div>
@@ -59,18 +75,6 @@ session_start();
              data-aos-duration="200">
             <img src="asset/img/box.png">
         </div>
-        <div class="dg-one-middle" data-aos="fade-up" data-aos-duration="200">
-            <?php
-
-            if(empty($_SESSION['user_id'])){
-                echo '<button class="dg-button-login"><a href="view/login.php">Login</a></button>';
-            }
-            else{
-                echo '<button class="dg-button-login"><a href="view/logout.php">Logout</a></button>';
-            }
-
-            ?>
-        </div>
     </div>
     <div class="dg-two-bg">
         <div>
@@ -87,14 +91,14 @@ session_start();
     <script>
         AOS.init()
 
-        $("a[href^='#']").click(function(e) {
+        $("a[href^='#']").click(function (e) {
             e.preventDefault();
 
             var position = $($(this).attr("href")).offset().top;
 
             $("body, html").animate({
                 scrollTop: position
-            } /* speed */ );
+            } /* speed */);
         });
     </script>
 </body>
