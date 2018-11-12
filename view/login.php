@@ -64,7 +64,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#dgOne">Beranda<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.php#dgOne">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Fitur</a>
@@ -113,8 +113,9 @@
                     <input type="password" name="password" class="form-control"/>
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="Login" class="btn btn-primary" value="Login"/>
+                    <input type="submit" name="Login" class="btn btn-warning" value="Login"/>
                 </div>
+                <span>Daftarkan Member<a href=""></a></span>
             </form>
         </div>
     </div>

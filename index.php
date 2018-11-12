@@ -1,9 +1,6 @@
 <?php
 
 session_start();
-if(empty($_SESSION['user_id'] && $_SESSION['level'])){
-    header("location: view/login.php");
-}
 
 ?>
 <!DOCTYPE html>
@@ -59,12 +56,12 @@ if(empty($_SESSION['user_id'] && $_SESSION['level'])){
             <img src="asset/img/box.png">
         </div>
         <div class="dg-one-middle">
+            <button class="dg-button-login"><a href="view/login.php">Login</a></button>
             <?php
-
             if(!empty($_SESSION['user_id']))
             {
                 if($_SESSION['level'] == 'admin'){
-                    echo '<button class="dg-button-login"><a href="view/logout.php">Logout</a></button>';
+                    echo '<button class="dg-button-login"><a href="view/login.php">Login</a></button>';
                 }
                 elseif($_SESSION['level'] == 'petugas'){
                     echo '<button class="dg-button-login"><a href="view/logout.php">Logout</a></button>';

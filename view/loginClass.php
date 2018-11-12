@@ -26,6 +26,23 @@ class Validation
             exit($e->getMessage());
         }
     }
+
+    public function register($nama, $username, $password, $level)
+    {
+        try{
+            $sql = "INSERT INTO user(nama, username, password, level) VALUES (?, ?, ?, ?)";
+            $nupl = $this->connect->db->prepare($sql);
+            $nupl->bindparam(1,$nama);
+            $nupl->bindparam(2,$username);
+            $nupl->bindparam(3,$password);
+            $nupl->bindparam(4,$level);
+            $nupl->execute();
+            return true;
+        } catch(PDOException $e){
+            return false;
+        }
+    }
+
     public function getUser($id){
         try{
             $sql = "SELECT * FROM user WHERE id = ?";
