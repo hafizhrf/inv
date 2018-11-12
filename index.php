@@ -43,9 +43,7 @@ session_start();
             <li class="nav-item dropdown">
                 <?php
 
-                if (empty($_SESSION['user_id'])) {
-                    echo $btn;
-                } else {
+                if (!empty($_SESSION['user_id'])) {
                     echo '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">';
                     echo $_SESSION['level'];
@@ -59,6 +57,15 @@ session_start();
 
                 ?>
             </li>
+            <?php
+
+            if (!empty($_SESSION['user_id'])){
+            if ($_SESSION['level'] == "admin") {
+                echo '<li class="nav-item">
+                      <a class="nav-link" href="view/register.php">Daftarkan Member</a>
+                      </li>';
+            }}
+            ?>
         </ul>
     </div>
 </nav>
@@ -75,6 +82,15 @@ session_start();
              data-aos-duration="200">
             <img src="asset/img/box.png">
         </div>
+        <div class="dg-one-middle" data-aos="fade-up"
+             data-aos-duration="200">
+            <?php
+
+            if (empty($_SESSION['user_id'])) {
+                echo '<button class="dg-button-login"><a href="view/login.php">Login</a></button>';
+            }
+            ?>
+        </div>
     </div>
     <div class="dg-two-bg">
         <div>
@@ -89,7 +105,7 @@ session_start();
     <script src="asset/js/core/popper.min.js" type="text/javascript"></script>
     <script src="asset/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
     <script>
-        AOS.init()
+        AOS.init();
 
         $("a[href^='#']").click(function (e) {
             e.preventDefault();

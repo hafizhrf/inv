@@ -41,6 +41,9 @@ body{
 }
 
 .dg-button-login{
+    position: relative;
+    top: 520px;
+    margin-left: 50vh;
     border: none;
     border-radius: 5px;
     background: #ffb731;
