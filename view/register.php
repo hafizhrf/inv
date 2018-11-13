@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 require('loginClass.php');
 include '../config/admindb.php';
 if (isset($_POST["proses"])) {
@@ -8,6 +10,7 @@ if (isset($_POST["proses"])) {
     $level = $_POST["sllevel"];
     $reg = new Validation();
     $login = $reg->register($nama, $username, $password, $level);
+    return $login;
 }
 ?>
 <!DOCTYPE html>
@@ -49,13 +52,30 @@ if (isset($_POST["proses"])) {
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="../index.php">Beranda<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../index.php#dgOne">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Fitur</a>
+                <a class="nav-link" href="../index.php#dgTwo">Fitur</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tentang</a>
+                <a class="nav-link" href="../index.php#dgEnd">Tentang</a>
+            </li>
+            <li class="nav-item dropdown">
+                <?php
+
+                if (!empty($_SESSION['user_id'])) {
+                    echo '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">';
+                    echo $_SESSION['level'];
+                    echo '</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Profil</a>
+                        <a class="dropdown-item" href="#">Pengaturan</a>
+                        <a class="dropdown-item" href="view/logout.php">Log Out</a>
+                    </div>';
+                }
+
+                ?>
             </li>
         </ul>
     </div>

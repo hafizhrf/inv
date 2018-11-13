@@ -18,7 +18,6 @@ session_start();
 
     <!-- include icon tab browser -->
     <link rel="icon" href="asset/img/logo/inv.png">
-
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-lg bg-white">
@@ -35,10 +34,10 @@ session_start();
                 <a class="nav-link" href="#dgOne">Beranda<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Fitur</a>
+                <a class="nav-link" href="#dgTwo">Fitur</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tentang</a>
+                <a class="nav-link" href="#dgEnd">Tentang</a>
             </li>
             <li class="nav-item dropdown">
                 <?php
@@ -49,9 +48,9 @@ session_start();
                     echo $_SESSION['level'];
                     echo '</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Profil</a>
-                    <a class="dropdown-item" href="#">Pengaturan</a>
-                    <a class="dropdown-item" href="view/logout.php">Log Out</a>
+                    <a class="btn btn-secondary drop" href="#">Profil</a>
+                    <a class="btn btn-secondary drop" href="#">Pengaturan</a>
+                    <a class="btn btn-secondary drop" href="view/logout.php">Log Out</a>
                 </div>';
                 }
 
@@ -59,12 +58,13 @@ session_start();
             </li>
             <?php
 
-            if (!empty($_SESSION['user_id'])){
-            if ($_SESSION['level'] == "admin") {
-                echo '<li class="nav-item">
+            if (!empty($_SESSION['user_id'])) {
+                if ($_SESSION['level'] == "admin") {
+                    echo '<li class="nav-item">
                       <a class="nav-link" href="view/register.php">Daftarkan Member</a>
                       </li>';
-            }}
+                }
+            }
             ?>
         </ul>
     </div>
@@ -92,13 +92,16 @@ session_start();
             ?>
         </div>
     </div>
-    <div class="dg-two-bg">
+    <div class="dg-two-bg" id="dgTwo">
         <div>
             <div class="dg-two-content">
             </div>
             <div class="dg-two-content-down">
             </div>
         </div>
+    </div>
+    <div class="dg-end" id="dgEnd">
+
     </div>
     <script src="asset/aos-master/dist/aos.js"></script>
     <script src="asset/js/core/jquery.min.js" type="text/javascript"></script>
