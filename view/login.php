@@ -79,7 +79,6 @@ if (!empty($_POST['Login'])) {
         margin: 0 auto;
         top: 10em;
         border: 1px solid #ebebeb;
-        box-shadow: 8px 8px 20px 1px grey;
     }
 
     h4 {
@@ -109,8 +108,9 @@ if (!empty($_POST['Login'])) {
                     <input type="password" name="password" class="form-control"/>
                 </div>
                 <div class="form-group">
-                    <input type="submit" name="Login" class="btn btn-warning" style="position: relative; float: right;"
-                           value="Login"/>
+                        <input type="submit" name="Login" class="btn btn-warning" 
+                        style="position: relative; float: center;"
+                        value="Login"/>
                 </div>
             </form>
         </div>
