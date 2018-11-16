@@ -95,14 +95,68 @@ session_start();
     <div class="dg-two-bg" id="dgTwo">
         <div>
             <div class="dg-two-content">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+               <h1 class="text">
+                    <p>Fitur</p>
+                </h1>
+               
+               <h2 class="text">
+                    <ul>
+                    <li>Kemudahan Meng-input data</li>
+                    <li>Kemanan dalam Transaksi</li>
+                    <li>User Interface yang baik</li>
+                    <li>Berbasis Website</li>
+                    <li>User level untuk menjamin keamanan</li>
+                    </ul>
+               </h2>
             </div>
+
             <div class="dg-two-content-down">
+                
             </div>
         </div>
     </div>
     <div class="dg-end" id="dgEnd">
 
+                <br><br><br>
+               <h1 class="text2">
+                    <p>Tentang</p>
+                </h1>
+               
+               <h2 class="text2">
+                    <p>
+                        Anda memiliki instansi yang menerapkan sistem inventaris barang?<br>
+                        Kesulitan dalam men-data peminjaman serta pengembalian barang?<br>
+                        Masih menggunakan cara lama untuk mendata barang?<br><br>
+                        Aplikasi "InV" Solusinya! <br><br>
+                        Aplikasi "InV" memiliki berbagai fitur untuk instansi yang memerlukan <br>
+                        aplikasi yang handal untuk sistem inventaris barang mereka!
+
+                    </p>
+               </h2>
+
+
     </div>
+
+    <div class="separator"></div>        
+
+    <div class="footer">
+        <div class="footer-content">
+            <h2>Kontak Kami</h2>
+            <h3>
+                <img src="asset/img/icon/phone.png"> +62 896-696-969 <br>
+                <img src="asset/img/icon/email.png"> is-is.studio@gmail.com
+            </h3>
+            <br><br>
+            <h4>©Copyright 2018 is-Is Studio</h4>
+            
+        </div>
+    </div>
+    
     <script src="asset/aos-master/dist/aos.js"></script>
     <script src="asset/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="asset/js/core/popper.min.js" type="text/javascript"></script>
