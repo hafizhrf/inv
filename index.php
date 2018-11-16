@@ -39,6 +39,9 @@ session_start();
             <li class="nav-item">
                 <a class="nav-link" href="#dgEnd">Tentang</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Kontak</a>
+            </li>
             <li class="nav-item dropdown">
                 <?php
 
@@ -144,7 +147,7 @@ session_start();
 
     <div class="separator"></div>        
 
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="footer-content">
             <h2>Kontak Kami</h2>
             <h3>
