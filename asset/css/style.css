@@ -42,12 +42,12 @@ body{
 
 .dg-button-login{
     position: relative;
-    top: 570px;
-    margin-left: 50vh;
+    top: 580px;
+    left: 48vh;
     border: none;
-    border-radius: 5px;
+    border-radius: 500px;
     background: #ffb731;
-    padding: 10px 20px;
+    padding: 7px 30px;
     transition: 0.2s ease-in-out;
 }
 

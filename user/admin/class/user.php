@@ -2,15 +2,18 @@
 class User {
     public $connect;
     public function __construct(){
-        require_once("../../../config/db.php");
-        $this->connect = new Db();
+        require_once("../../../config/admindb.php");
+        $this->connect = new adminDb();
     }
     public function addUs($data){
         try{
-            $sql = "INSERT INTO user (id,description) VALUES(?,?)";
+            $sql = "INSERT INTO user VALUES(?,?,?,?,?)";
             $ins = $this->connect->db->prepare($sql);
             $ins->bindparam(1, $data[0]);
             $ins->bindparam(2, $data[1]);
+            $ins->bindparam(3, $data[2]);
+            $ins->bindparam(4, $data[3]);
+            $ins->bindparam(5, $data[4]);
             $ins->execute();
             return true;
         }
@@ -46,7 +49,7 @@ class User {
     
     public function readUs(){
         try{
-            $sql = "SELECT * FROM user ";
+            $sql = "SELECT * FROM user WHERE level != 'admin'";
             $upd = $this->connect->db->prepare($sql);
             $upd->execute();
             return $upd;
@@ -55,7 +58,17 @@ class User {
             return false;
         }
     }
-
+    public function getMax(){
+        try{
+            $sql = "SELECT max(id) as id FROM user";
+            $arg = $this->connect->db->prepare($sql);
+            $arg->execute();
+            return $data = $arg->fetch(PDO::FETCH_OBJ);
+        }
+        catch(PDOexception $e){
+            return false;
+        }
+    }
     public function deleteUs($id){
         try{
             $sql = "DELETE FROM user  WHERE id = ?";

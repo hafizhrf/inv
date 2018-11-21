@@ -159,7 +159,7 @@ header("Location: ../../../view/login.php");
     <div class="main-panel">
         <div class="content">
             <div class="container-fluid">
-                <h2>SELAMAT DATANG Petugas!</h2>
+                <h2>Selamat Datang, Petugas!</h2>
                 <button type="button" class="btn btn-warning btn-round">
                     <a href="../../../view/logout.php" style="color: white;">Logout</a>
                 </button>

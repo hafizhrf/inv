@@ -104,13 +104,13 @@ session_start();
                 <br>
                 <br>
                <h1 class="text">
-                    <p>Fitur</p>
+                    <p>Fitur pada Aplikasi</p>
                 </h1>
                
                <h2 class="text">
                     <ul>
                     <li>Kemudahan Meng-input data</li>
-                    <li>Kemanan dalam Transaksi</li>
+                    <li>Keamanan dalam Transaksi</li>
                     <li>User Interface yang baik</li>
                     <li>Berbasis Website</li>
                     <li>User level untuk menjamin keamanan</li>
@@ -125,9 +125,9 @@ session_start();
     </div>
     <div class="dg-end" id="dgEnd">
 
-                <br><br><br>
+                <br><br><br><br><br>
                <h1 class="text2">
-                    <p>Tentang</p>
+                    <p>Tentang Aplikasi</p>
                 </h1>
                
                <h2 class="text2">
