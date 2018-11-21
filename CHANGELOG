@@ -1,0 +1,15 @@
+Rencana changelog inv :
+
+1. terdapat notifikasi konfirmasi [ok/cancel] saat ingin menghapus barang, 
+   memproses transaksi, menyelesaikan transaksi, logout, dll...
+
+2. sebelum memproses pengembalian barang, akan ada halaman konfirmasi yang
+   menampilkan detail transaksi, serta pilihan [edit] mengubah kondisi 
+   yaitu baik/buruk
+
+3. saat di halaman barang, saat sedang menambah barang, tidak langsung dialihkan
+   ke halaman cart, melainkan muncul notifikasi "barang telah dimasukkan kedalam
+   cart" sehingga user tidak perlu bolak-balik dari halaman cart ke halaman barang
+   jika ingin menambah barang lebih dari satu dalam suatu transaksi.
+
+itu dulu, mohon untuk pro-gay-mer backend dan front-end ikut membantu mewujudkan fitur tersebut, terima kasih...
